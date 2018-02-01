@@ -14,7 +14,7 @@
      
 \sloppy
 
-\title{Placidus: A Platform of formal verification in software defined networks}
+\title{Placidus: A Platform of formal verification for software defined networks}
 
 \author{Levindo Gabriel Taschetto Neto\inst{1}}
 
@@ -29,10 +29,13 @@
 \maketitle
 
 \begin{abstract}
-Formal verification is an important step to ensure network operation and ensure properties such as the absence of errors in device configuration. However, historically, techniques of formal verification presents several limitations regarding performance, scalability, and expressiveness, mainly due to the complexity of current networks. Sophisticated techniques for formal verification need the (i) updated information about the context and state of network devices, and (ii) intelligent strategies to combine representation models in order to guarantee performance and scalability. SDN architectures offer the essence needed for this, enabling combined selection techniques to increase the quality of the results obtained by a selection system. In this paper, we propose the Placidus framework, which is based on two techniques for formal verification: Header space analysis and exhaustive search to verify the consistency of routing rules in switches. The framework is flexible and capable of verifying a large range of network properties, such as reachability, redundancy in network devices, and inconsistencies. Preliminary results indicate that the Placidus framework performs well, able to verify properties such as rule conflict and reachability using around 5.9 seconds, in a network with more than 6100 traffic flows.
+Formal verification is an important step in verifying network operations and ensuring properties, such as the accuracy of device configurations. Nevertheless, historically, formal verification techniques present several limitations regarding performance, scalability, and expressiveness, mainly due to the complexity of current networks.
+Problems processing time of a task or function in computer networks may be critical for the reliability of a whole system.
+In order to solve these possible complications, sophisticated techniques for formal verification can be used, such as (i) updating the information about the context and state of network devices, and (ii) using intelligent strategies for combining representation models in order to guarantee performance and scalability.
+SDN architectures offer the essence needed for resolving this kind of issue. It enables combined selection techniques in order to increase the quality of the results obtained by a selection system.
+In this paper, we propose the Placidus framework, which is a platform of formal verification for software defined networks. It is based on two techniques for formal verification: header space analysis and exhaustive search to certify the consistency of routing rules in switches, which has a complexity of \textit{O(n)}.
+The framework is flexible and capable of verifying a large range of network properties, such as reachability, redundancy in network devices, and inconsistencies.
+Preliminary results indicate that the Placidus framework performs well in comparison with other frameworks from its family, is able to verify properties such as rule conflict and reachability taking around 5.9 seconds, in a network with more than 6100 traffic flows.
 \end{abstract}
-
-
-
 
 \end{document} 
